@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bigsend"
+version = "0.1.0"
+description = ""
+authors = ["Denis Kustov <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.4"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
